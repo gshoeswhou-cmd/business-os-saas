@@ -101,3 +101,18 @@ th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spa
   .sidebar { position: static; }
   .grid-2, .stats-grid { grid-template-columns: 1fr; }
 }
+.system-notice {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  top: 16px;
+  z-index: 9999;
+  border: 1px solid rgba(255,112,112,0.35);
+  background: rgba(50, 12, 18, 0.96);
+  color: #ffdede;
+  padding: 12px 14px;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  max-width: 920px;
+  margin: 0 auto;
+}
